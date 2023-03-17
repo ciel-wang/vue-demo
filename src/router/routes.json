@@ -1,0 +1,109 @@
+[
+	{
+		"path": "/pulldownPanel",
+		"name": "pulldownPanel",
+		"title": "自定义下拉面板",
+		"url": "/demo/my-pulldown-panel"
+	},
+	{
+		"path": "/echarts",
+		"name": "Echarts",
+		"title": "自定义Echarts",
+		"chidren": [
+			{
+				"path": "/echarts/pie3d",
+				"name": "Pie3d",
+				"title": "3d饼图",
+				"url": "/echarts/pie3d"
+			},
+			{
+				"path": "/echarts/bar3d",
+				"name": "Bar3d",
+				"title": "仿3d柱状图",
+				"url": "/echarts/bar3d"
+			},
+			{
+				"path": "/echarts/echarts3",
+				"name": "Echarts3",
+				"title": "图3",
+				"url": "/echarts/echarts3"
+			}
+		]
+	},
+	{
+		"path": "/demo",
+		"name": "Demo",
+		"title": "自定义Demo",
+		"chidren": [
+			{
+				"path": "/demo/flop",
+				"name": "Flop",
+				"title": "时钟翻牌器",
+				"url": "/demo/flop"
+			},
+			{
+				"path": "/demo/keyboard",
+				"name": "keyboard",
+				"title": "自定义键盘",
+				"url": "/demo/keyboard"
+			},
+			{
+				"path": "/demo/compareFace",
+				"name": "compareFace",
+				"title": "人脸对比",
+				"url": "/demo/compareFace"
+			}
+		]
+	},
+	{
+		"path": "/test",
+		"name": "Test",
+		"title": "第三方UI库Test",
+		"chidren": [
+			{
+				"path": "/test/vxe-table-drag",
+				"name": "Vxe-Table-Drag",
+				"title": "vxe表格列拖拽",
+				"url": "/test/vxe-table-drag"
+			}
+		]
+	},
+	{
+		"path": "/css",
+		"name": "Css",
+		"title": "css相关",
+		"chidren": [
+			{
+				"path": "/css/scroll-through-text",
+				"name": "Scroll-Through-Text",
+				"title": "文字行内滚动播放",
+				"url": "/css/scroll-through-text"
+			},
+			{
+				"path": "/css/rotate-border",
+				"name": "Rotate-Border",
+				"title": "动态旋转变色border",
+				"url": "/css/rotate-border"
+			},
+			{
+				"path": "/css/text-surround",
+				"name": "textSurround",
+				"title": "文字环绕",
+				"url": "/css/text-surround"
+			}
+		]
+	},
+	{
+		"path": "/canvas",
+		"name": "Canvas",
+		"title": "canvas相关",
+		"chidren": [
+			{
+				"path": "/canvas/code-rain",
+				"name": "codeRain",
+				"title": "代码雨特效",
+				"url": "/canvas/code-rain"
+			}
+		]
+	}
+]

@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="">
+	<head>
+		<meta charset="utf-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width,initial-scale=1.0" />
+		<link rel="icon" href="<%= BASE_URL %>favicon.ico" />
+		<title><%= htmlWebpackPlugin.options.title %></title>
+		<style type="text/css">
+			html,
+			body,
+			#app {
+				height: 100%;
+				margin: 0;
+				padding: 0;
+			}
+			.time-box {
+				width: 160px;
+				height: 80px;
+				border-radius: 15px;
+				background-color: #42b983;
+				line-height: 70px;
+				text-align: center;
+				position: relative;
+			}
+			.time-box::after {
+				content: "";
+				border: 10px solid #42b983;
+				border-color: #42b983 transparent transparent transparent;
+				position: absolute;
+				bottom: -20px;
+				left: 50%;
+				transform: translateX(-50%);
+			}
+			.time-box hr {
+				background-color: red;
+				width: 3px;
+				height: 6px;
+				margin: 0 1px;
+				display: inline-block;
+				border: none;
+			}
+			hr {
+				animation: note 0.4s ease-in-out;
+				animation-iteration-count: infinite;
+				animation-direction: alternate;
+			}
+			.hr1 {
+				animation-delay: -0.3s;
+			}
+			.hr2 {
+				animation-delay: -0.5s;
+			}
+			.hr3 {
+				animation-delay: -0.7s;
+			}
+			.hr4 {
+				animation-delay: -0.8s;
+			}
+			.hr5 {
+				animation-delay: -0.9s;
+			}
+			.hr6 {
+				animation-delay: -0.8s;
+			}
+			.hr7 {
+				animation-delay: -0.7s;
+			}
+			.hr8 {
+				animation-delay: -0.5s;
+			}
+			.hr9 {
+				animation-delay: -0.3s;
+			}
+			.hr10 {
+				animation-delay: -0.1s;
+			}
+			@keyframes note {
+				from {
+					transform: scaleY(1);
+				}
+				to {
+					transform: scaleY(5);
+				}
+			}
+		</style>
+		<script src="https://cdn.bootcss.com/vConsole/3.3.0/vconsole.min.js"></script>
+		<script>
+			var vConsole = new VConsole();
+		</script>
+	</head>
+	<body>
+		<noscript>
+			<strong
+				>We're sorry but <%= htmlWebpackPlugin.options.title %> doesn't work properly without JavaScript enabled. Please enable it to
+				continue.</strong
+			>
+		</noscript>
+		<div id="app">
+			<!-- <div class="time-box">
+					<hr class="hr1" />
+					<hr class="hr2" />
+					<hr class="hr3" />
+					<hr class="hr4" />
+					<hr class="hr5" />
+					<hr class="hr6" />
+					<hr class="hr7" />
+					<hr class="hr8" />
+					<hr class="hr9" />
+					<hr class="hr10" />
+			 </div> -->
+		</div>
+		<!-- built files will be auto injected -->
+	</body>
+</html>
