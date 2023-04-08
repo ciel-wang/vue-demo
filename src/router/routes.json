@@ -52,6 +52,12 @@
 				"name": "compareFace",
 				"title": "人脸对比",
 				"url": "/demo/compareFace"
+			},
+			{
+				"path": "/demo/countRoll",
+				"name": "countRoll",
+				"title": "数字滚动效果",
+				"url": "/demo/countRoll"
 			}
 		]
 	},
@@ -90,6 +96,12 @@
 				"name": "textSurround",
 				"title": "文字环绕",
 				"url": "/css/text-surround"
+			},
+			{
+				"path": "/css/border_bottom",
+				"name": "borderBottom",
+				"title": "会动的下划线",
+				"url": "/css/border_bottom"
 			}
 		]
 	},
@@ -103,6 +115,18 @@
 				"name": "codeRain",
 				"title": "代码雨特效",
 				"url": "/canvas/code-rain"
+			},
+			{
+				"path": "/canvas/img-color",
+				"name": "imgColor",
+				"title": "canvas玩转图片",
+				"url": "/canvas/img-color"
+			},
+			{
+				"path": "/canvas/watermark",
+				"name": "watermark",
+				"title": "canvas添加水印",
+				"url": "/canvas/watermark"
 			}
 		]
 	}
