@@ -17,7 +17,7 @@
 export default {
 	data() {
 		return {
-			iconfont: "\ue751",
+			iconfont: '\ue751',
 		};
 	},
 };
@@ -35,7 +35,7 @@ export default {
 	align-items: center;
 }
 .annulus_class::before {
-	content: "";
+	content: '';
 	background-image: linear-gradient(132deg, #5ddcff, #3c67e3 63%, #4e00c2);
 	position: absolute;
 	z-index: 0;

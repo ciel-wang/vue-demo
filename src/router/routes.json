@@ -129,5 +129,18 @@
 				"url": "/canvas/watermark"
 			}
 		]
+	},
+	{
+		"path": "/three",
+		"name": "Three",
+		"title": "three相关",
+		"chidren": [
+			{
+				"path": "/three/basic",
+				"name": "three",
+				"title": "three初始化",
+				"url": "/three/basic"
+			}
+		]
 	}
 ]
