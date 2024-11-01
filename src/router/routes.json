@@ -1,146 +1,164 @@
 [
-	{
-		"path": "/pulldownPanel",
-		"name": "pulldownPanel",
-		"title": "自定义下拉面板",
-		"url": "/demo/my-pulldown-panel"
-	},
-	{
-		"path": "/echarts",
-		"name": "Echarts",
-		"title": "自定义Echarts",
-		"chidren": [
-			{
-				"path": "/echarts/pie3d",
-				"name": "Pie3d",
-				"title": "3d饼图",
-				"url": "/echarts/pie3d"
-			},
-			{
-				"path": "/echarts/bar3d",
-				"name": "Bar3d",
-				"title": "仿3d柱状图",
-				"url": "/echarts/bar3d"
-			},
-			{
-				"path": "/echarts/echarts3",
-				"name": "Echarts3",
-				"title": "图3",
-				"url": "/echarts/echarts3"
-			}
-		]
-	},
-	{
-		"path": "/demo",
-		"name": "Demo",
-		"title": "自定义Demo",
-		"chidren": [
-			{
-				"path": "/demo/flop",
-				"name": "Flop",
-				"title": "时钟翻牌器",
-				"url": "/demo/flop"
-			},
-			{
-				"path": "/demo/keyboard",
-				"name": "keyboard",
-				"title": "自定义键盘",
-				"url": "/demo/keyboard"
-			},
-			{
-				"path": "/demo/compareFace",
-				"name": "compareFace",
-				"title": "人脸对比",
-				"url": "/demo/compareFace"
-			},
-			{
-				"path": "/demo/countRoll",
-				"name": "countRoll",
-				"title": "数字滚动效果",
-				"url": "/demo/countRoll"
-			}
-		]
-	},
-	{
-		"path": "/test",
-		"name": "Test",
-		"title": "第三方UI库Test",
-		"chidren": [
-			{
-				"path": "/test/vxe-table-drag",
-				"name": "Vxe-Table-Drag",
-				"title": "vxe表格列拖拽",
-				"url": "/test/vxe-table-drag"
-			}
-		]
-	},
-	{
-		"path": "/css",
-		"name": "Css",
-		"title": "css相关",
-		"chidren": [
-			{
-				"path": "/css/scroll-through-text",
-				"name": "Scroll-Through-Text",
-				"title": "文字行内滚动播放",
-				"url": "/css/scroll-through-text"
-			},
-			{
-				"path": "/css/rotate-border",
-				"name": "Rotate-Border",
-				"title": "动态旋转变色border",
-				"url": "/css/rotate-border"
-			},
-			{
-				"path": "/css/text-surround",
-				"name": "textSurround",
-				"title": "文字环绕",
-				"url": "/css/text-surround"
-			},
-			{
-				"path": "/css/border_bottom",
-				"name": "borderBottom",
-				"title": "会动的下划线",
-				"url": "/css/border_bottom"
-			}
-		]
-	},
-	{
-		"path": "/canvas",
-		"name": "Canvas",
-		"title": "canvas相关",
-		"chidren": [
-			{
-				"path": "/canvas/code-rain",
-				"name": "codeRain",
-				"title": "代码雨特效",
-				"url": "/canvas/code-rain"
-			},
-			{
-				"path": "/canvas/img-color",
-				"name": "imgColor",
-				"title": "canvas玩转图片",
-				"url": "/canvas/img-color"
-			},
-			{
-				"path": "/canvas/watermark",
-				"name": "watermark",
-				"title": "canvas添加水印",
-				"url": "/canvas/watermark"
-			}
-		]
-	},
-	{
-		"path": "/three",
-		"name": "Three",
-		"title": "three相关",
-		"chidren": [
-			{
-				"path": "/three/basic",
-				"name": "three",
-				"title": "three初始化",
-				"url": "/three/basic"
-			}
-		]
-	}
+  {
+    "path": "/pulldownPanel",
+    "name": "pulldownPanel",
+    "title": "自定义下拉面板",
+    "url": "/demo/my-pulldown-panel"
+  },
+  {
+    "path": "/echarts",
+    "name": "Echarts",
+    "title": "自定义Echarts",
+    "chidren": [
+      {
+        "path": "/echarts/pie3d",
+        "name": "Pie3d",
+        "title": "3d饼图",
+        "url": "/echarts/pie3d"
+      },
+      {
+        "path": "/echarts/bar3d",
+        "name": "Bar3d",
+        "title": "仿3d柱状图",
+        "url": "/echarts/bar3d"
+      },
+      {
+        "path": "/echarts/echarts3",
+        "name": "Echarts3",
+        "title": "图3",
+        "url": "/echarts/echarts3"
+      }
+    ]
+  },
+  {
+    "path": "/demo",
+    "name": "Demo",
+    "title": "自定义Demo",
+    "chidren": [
+      {
+        "path": "/demo/flop",
+        "name": "Flop",
+        "title": "时钟翻牌器",
+        "url": "/demo/flop"
+      },
+      {
+        "path": "/demo/keyboard",
+        "name": "keyboard",
+        "title": "自定义键盘",
+        "url": "/demo/keyboard"
+      },
+      {
+        "path": "/demo/compareFace",
+        "name": "compareFace",
+        "title": "人脸对比",
+        "url": "/demo/compareFace"
+      },
+      {
+        "path": "/demo/countRoll",
+        "name": "countRoll",
+        "title": "数字滚动效果",
+        "url": "/demo/countRoll"
+      },
+      {
+        "path": "/demo/menu",
+        "name": "menu",
+        "title": "仿阿里云菜单",
+        "url": "/demo/menu"
+      },
+      {
+        "path": "/demo/progerss",
+        "name": "progerss",
+        "title": "进度条",
+        "url": "/demo/progerss"
+      }
+    ]
+  },
+  {
+    "path": "/test",
+    "name": "Test",
+    "title": "第三方UI库Test",
+    "chidren": [
+      {
+        "path": "/test/vxe-table-drag",
+        "name": "Vxe-Table-Drag",
+        "title": "vxe表格列拖拽",
+        "url": "/test/vxe-table-drag"
+      },
+      {
+        "path": "/test/vue-easy-tree-demo",
+        "name": "Vue-Easy-Tree-Demo",
+        "title": "大数据树组件",
+        "url": "/test/vue-easy-tree-demo"
+      }
+    ]
+  },
+  {
+    "path": "/css",
+    "name": "Css",
+    "title": "css相关",
+    "chidren": [
+      {
+        "path": "/css/scroll-through-text",
+        "name": "Scroll-Through-Text",
+        "title": "文字行内滚动播放",
+        "url": "/css/scroll-through-text"
+      },
+      {
+        "path": "/css/rotate-border",
+        "name": "Rotate-Border",
+        "title": "动态旋转变色border",
+        "url": "/css/rotate-border"
+      },
+      {
+        "path": "/css/text-surround",
+        "name": "textSurround",
+        "title": "文字环绕",
+        "url": "/css/text-surround"
+      },
+      {
+        "path": "/css/border_bottom",
+        "name": "borderBottom",
+        "title": "会动的下划线",
+        "url": "/css/border_bottom"
+      }
+    ]
+  },
+  {
+    "path": "/canvas",
+    "name": "Canvas",
+    "title": "canvas相关",
+    "chidren": [
+      {
+        "path": "/canvas/code-rain",
+        "name": "codeRain",
+        "title": "代码雨特效",
+        "url": "/canvas/code-rain"
+      },
+      {
+        "path": "/canvas/img-color",
+        "name": "imgColor",
+        "title": "canvas玩转图片",
+        "url": "/canvas/img-color"
+      },
+      {
+        "path": "/canvas/watermark",
+        "name": "watermark",
+        "title": "canvas添加水印",
+        "url": "/canvas/watermark"
+      }
+    ]
+  },
+  {
+    "path": "/three",
+    "name": "Three",
+    "title": "three相关",
+    "chidren": [
+      {
+        "path": "/three/basic",
+        "name": "three",
+        "title": "three初始化",
+        "url": "/three/basic"
+      }
+    ]
+  }
 ]
